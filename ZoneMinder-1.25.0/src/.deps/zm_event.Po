@@ -1,0 +1,584 @@
+zm_event.o: zm_event.cpp /usr/include/fcntl.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/uio.h \
+ /usr/include/bits/stat.h /usr/include/sys/socket.h \
+ /usr/include/sys/uio.h /usr/include/bits/socket.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/bits/in.h \
+ /usr/include/sys/un.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h \
+ /usr/include/bits/ipc.h /usr/include/sys/msg.h /usr/include/bits/msq.h \
+ /usr/include/getopt.h /usr/include/glob.h zm.h zm_config.h ../config.h \
+ zm_config_defines.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/string \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++config.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/os_defines.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/cpu_defines.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stringfwd.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/char_traits.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_algobase.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/functexcept.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/exception_defines.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/cpp_type_traits.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/type_traits.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/numeric_traits.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_pair.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/move.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/concept_check.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator_base_types.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator_base_funcs.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/debug/debug.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/postypes.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stdarg.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/allocator.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++allocator.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/new_allocator.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/new \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/exception \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/atomic_lockfree_defines.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/localefwd.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++locale.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/iosfwd \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/cctype \
+ /usr/include/ctype.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/ostream_insert.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/cxxabi_forced.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_function.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/backward/binders.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/range_access.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/basic_string.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/atomicity.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/gthr.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/atomic_word.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/basic_string.tcc \
+ zm_logger.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/map \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_tree.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_map.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_multimap.h \
+ /usr/include/mysql/mysql.h /usr/include/mysql/mysql_version.h \
+ /usr/include/mysql/mysql_com.h /usr/include/mysql/mysql_time.h \
+ /usr/include/mysql/my_list.h /usr/include/mysql/typelib.h \
+ /usr/include/mysql/my_alloc.h zm_db.h zm_time.h /usr/include/sys/time.h \
+ zm_mpeg.h zm_ffmpeg.h /usr/include/libavutil/avutil.h \
+ /usr/include/libavutil/common.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/inttypes.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/sys_errlist.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/libavutil/attributes.h \
+ /usr/include/libavutil/avconfig.h /usr/include/libavutil/mem.h \
+ /usr/include/libavutil/error.h /usr/include/libavutil/avutil.h \
+ /usr/include/libavutil/mathematics.h /usr/include/libavutil/rational.h \
+ /usr/include/libavutil/intfloat_readwrite.h /usr/include/libavutil/log.h \
+ /usr/include/libavutil/pixfmt.h /usr/include/libavcodec/avcodec.h \
+ /usr/include/libavutil/samplefmt.h /usr/include/libavutil/cpu.h \
+ /usr/include/libavutil/dict.h /usr/include/libavutil/log.h \
+ /usr/include/libavutil/pixfmt.h /usr/include/libavutil/rational.h \
+ /usr/include/libavcodec/version.h /usr/include/libavutil/audioconvert.h \
+ /usr/include/libavformat/avformat.h /usr/include/libavformat/avio.h \
+ /usr/include/libavutil/common.h /usr/include/libavformat/version.h \
+ /usr/include/libswscale/swscale.h zm_signal.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h /usr/include/execinfo.h zm_event.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/sys/stat.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/set \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_set.h \
+ /usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_multiset.h \
+ zm_image.h zm_jpeg.h /usr/include/setjmp.h jinclude.h \
+ /usr/include/jconfig.h /usr/include/jpeglib.h /usr/include/jmorecfg.h \
+ /usr/include/jerror.h zm_rgb.h zm_coord.h zm_box.h zm_poly.h \
+ /usr/include/zlib.h /usr/include/zconf.h zm_stream.h zm_monitor.h \
+ zm_zone.h zm_camera.h /usr/include/sys/ioctl.h \
+ /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h zmf.h
+
+/usr/include/fcntl.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include-fixed/limits.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/sys/un.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/ipc.h:
+
+/usr/include/bits/ipctypes.h:
+
+/usr/include/bits/ipc.h:
+
+/usr/include/sys/msg.h:
+
+/usr/include/bits/msq.h:
+
+/usr/include/getopt.h:
+
+/usr/include/glob.h:
+
+zm.h:
+
+zm_config.h:
+
+../config.h:
+
+zm_config_defines.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/string:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++config.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/os_defines.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/cpu_defines.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stringfwd.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/char_traits.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_algobase.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/functexcept.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/exception_defines.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/cpp_type_traits.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/type_traits.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/numeric_traits.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_pair.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/move.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/concept_check.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator_base_types.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator_base_funcs.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_iterator.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/debug/debug.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/postypes.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/include/stdarg.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/allocator.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++allocator.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/new_allocator.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/new:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/exception:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/atomic_lockfree_defines.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/localefwd.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/c++locale.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/iosfwd:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/cctype:
+
+/usr/include/ctype.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/ostream_insert.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/cxxabi_forced.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_function.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/backward/binders.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/range_access.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/basic_string.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/ext/atomicity.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/gthr.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/x86_64-slackware-linux/bits/atomic_word.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/basic_string.tcc:
+
+zm_logger.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/map:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_tree.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_map.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_multimap.h:
+
+/usr/include/mysql/mysql.h:
+
+/usr/include/mysql/mysql_version.h:
+
+/usr/include/mysql/mysql_com.h:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/mysql/typelib.h:
+
+/usr/include/mysql/my_alloc.h:
+
+zm_db.h:
+
+zm_time.h:
+
+/usr/include/sys/time.h:
+
+zm_mpeg.h:
+
+zm_ffmpeg.h:
+
+/usr/include/libavutil/avutil.h:
+
+/usr/include/libavutil/common.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/libavutil/attributes.h:
+
+/usr/include/libavutil/avconfig.h:
+
+/usr/include/libavutil/mem.h:
+
+/usr/include/libavutil/error.h:
+
+/usr/include/libavutil/avutil.h:
+
+/usr/include/libavutil/mathematics.h:
+
+/usr/include/libavutil/rational.h:
+
+/usr/include/libavutil/intfloat_readwrite.h:
+
+/usr/include/libavutil/log.h:
+
+/usr/include/libavutil/pixfmt.h:
+
+/usr/include/libavcodec/avcodec.h:
+
+/usr/include/libavutil/samplefmt.h:
+
+/usr/include/libavutil/cpu.h:
+
+/usr/include/libavutil/dict.h:
+
+/usr/include/libavutil/log.h:
+
+/usr/include/libavutil/pixfmt.h:
+
+/usr/include/libavutil/rational.h:
+
+/usr/include/libavcodec/version.h:
+
+/usr/include/libavutil/audioconvert.h:
+
+/usr/include/libavformat/avformat.h:
+
+/usr/include/libavformat/avio.h:
+
+/usr/include/libavutil/common.h:
+
+/usr/include/libavformat/version.h:
+
+/usr/include/libswscale/swscale.h:
+
+zm_signal.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/execinfo.h:
+
+zm_event.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/sys/stat.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/set:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_set.h:
+
+/usr/lib64/gcc/x86_64-slackware-linux/4.7.1/../../../../include/c++/4.7.1/bits/stl_multiset.h:
+
+zm_image.h:
+
+zm_jpeg.h:
+
+/usr/include/setjmp.h:
+
+jinclude.h:
+
+/usr/include/jconfig.h:
+
+/usr/include/jpeglib.h:
+
+/usr/include/jmorecfg.h:
+
+/usr/include/jerror.h:
+
+zm_rgb.h:
+
+zm_coord.h:
+
+zm_box.h:
+
+zm_poly.h:
+
+/usr/include/zlib.h:
+
+/usr/include/zconf.h:
+
+zm_stream.h:
+
+zm_monitor.h:
+
+zm_zone.h:
+
+zm_camera.h:
+
+/usr/include/sys/ioctl.h:
+
+/usr/include/bits/ioctls.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/bits/ioctl-types.h:
+
+/usr/include/sys/ttydefaults.h:
+
+zmf.h:
